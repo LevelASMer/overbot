@@ -1,0 +1,23 @@
+{
+  "name": "matrix-bot",
+  "packageManager": "yarn@3.6.1",
+  "scripts": {
+    "build": "yarn tsc",
+    "dev": "yarn ts-node ./src/app.ts",
+    "token": "yarn ts-node ./src/token.ts",
+    "start": "yarn node ./bin/app.js"
+  },
+  "dependencies": {
+    "@types/node": "^20.3.3",
+    "matrix-bot-sdk": "^0.6.6",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "dependenciesMeta": {
+    "ts-node@10.9.1": {
+      "unplugged": true
+    }
+  }
+}
